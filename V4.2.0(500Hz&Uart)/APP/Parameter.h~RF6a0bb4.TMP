@@ -1,0 +1,422 @@
+/******************************************************************************
+ * @file     Parameter.h
+ * @brief   参数设定
+ * @version  
+ * @date     2017
+ * @note
+ * Copyright (C)  
+ *
+ * @par     此文件仅用于定参数   
+*******************************************************************************/
+#ifndef __PARAMETER_H_
+#define __PARAMETER_H_
+
+#include "boards.h"
+#include "nrf.h"
+#include "string.h"
+#include "nrf_drv_timer.h"
+#include "nrf_drv_wdt.h"
+
+
+/************************************************************************
+*新协议指令CMD
+*************************************************************************/
+#define  TypeID_GPRS              0x01   //设备ID编号
+#define  TypeID_WIFI              0x02   //设备ID编号
+#define  CMD_START                0x24   //指令头
+#define  CMD_LF1                  0x69   //指令结束字符
+#define  CMD_LF2                  0x42   //指令结束字符
+#define  CMD_MOBSYNC              0x01  //同步指令
+#define  REQ_SECOND_SERVER        0x02  //请求后置服务器
+#define  REQ_SECOND_TOKEN         0x03  //获取后置服务器token2
+#define  REQ_SECOND_VERIFY        0x04  //获取后置服务器校验	
+#define  CMD_RECONNECTMODE        0x05  //重新联网模式
+#define  REQ_SERVER_TIME          0x06   //获取服务器时间
+#define  REALTIME_HRPARA          0x10  //实时呼吸心率等参数
+#define  BREATHE_WAVE             0x11  //呼吸波形数据
+#define  REQ_BINDING_USERS        0x12   //查询是否关联用户
+#define  CARD_IMSI                0x13   //发送卡号或IMSI号码
+#define  AMP_CHG                  0x14   //发送放到倍数
+#define  SEND_STATISTICS_SLEEPDTAT 0x15  //发送断网的统计数据
+
+#define CMD_DEBUG                 0x20      //调试信息
+#define CMD_SETBTNAME             0x26      //设置蓝牙名称
+#define CMD_SETMAC                0x22      //设置MAC
+#define CMD_READMAC               0x23      //读取MAC
+#define CMD_READVER               0x25      //读取软件版本
+
+#define  CMD_REQMODULESTATUS      0x30    //查询设备当前状态
+#define  SET_ROUTER_NAME          0X31  //设置wifi模块需要连接的路由器的SSID和密码
+
+#define  DEVICE_ABNORMAL_MESSAGE   0xF1  //设备异常信息
+#define  SERVER_ABNORMAL_MESSAGE   0xF2  //服务器异常信息
+#define  SLEEPDATA_ABNORMAL_MESSAGE 0xF3 //心率呼吸数据异常信息
+#define  CMD_PRESSSENSER           0xF4  //压力传感器状态
+
+#define  CMD_REQMOUDLE_INFO       0x27   //查询设备状态信息
+#define  MOUDLE_STATUS_RUNTIME    0X01   //设备运行时间
+#define  MOUDLE_STATUS_ROUTERSSID 0X02   //wifi模块保存的路由器名称和密码
+#define  MOUDLE_STATUS_CONNECTIP  0X03   //wifi模块当前连接的服务器IP
+
+
+#define  FLASH_No_MAC             0x01  //设备未写入序列号
+#define  FLASH_NO_TOKEN2          0X02  //设备未保存token2
+#define  SERVER_CHECK_MAC_ERR     0X02  //服务器验证MAC错误 
+#define  SERVER_CHECK_MD5_ERR     0x01  //后置服务器MD5验证错误
+
+#define  BINDING_USERS_YES        0x02   //设备已关联用户
+#define  BINDING_USERS_NO         0x01   //设备未关联用户
+#define  MONITOR_OFFLINE          0x00   //脱离监测
+#define  MONITOR_ONLINE           0x01    //监测中
+
+#define  PRESSSENSER_OFF           0X01   //压力传感器未压下
+#define  PRESSSENSER_ON            0X02   //压力传感器压下
+
+#define  NO_ERROR                 0x00  
+#define  ERROR_N0_MAC             0X01    //设备无编号
+#define  ERROR_NO_TOKEN2          0X02    //设备无token2
+#define  ERROR_MAC_ERR            0x04     //Mac验证错误
+#define  ERROR_MD5_ERR            0x08     //MD5校验错误
+#define  ERROR_NO_ROUTERNAME      0X10    //设备无保存路由器名称
+#define  START_POWERON            0X01     //电源重启
+#define  START_NETWOEK_RECONNECT  0X02     //断网重连
+#define  START_WIFI_RESTART       0X03     //WIFI模块上电重启
+#define  HR_ABNORMAL               0x01     //心率异常
+#define  RR_ABNORMAL               0x02     //呼吸异常
+
+#define  SYSTEM_INIT              0
+#define  MAC_INIT_OK              1
+#define  WIRELESS_INIT_OK         2
+
+
+#define  LED_WIRELEE_INIT       1
+#define  LED_WIRELEE_LINK       2
+#define  LED_WIFI_CONFIG        3
+#define  LED_SENDDATA           4
+
+#define  SERVER_LINK_PREIP        1
+#define  SERVER_LINK_BACKIP       2
+
+#define  STATIST_TURN       1
+#define  STATIST_PEOPLE     2
+#define  STATIST_NOPEOPLE   3
+
+#define CMD_DELFLASHDATA        0XD1      //删除FLASH数据
+#define CMD_DELSAVENUM          0x01      //删除保存的发送数据编号
+#define CMD_DELSERVERIP         0X02      //删除服务器IP
+#define CMD_DELALLDATA          0XFF      //删除所有的数据
+#define CMD_SIMVERIFYERR        0X01      //sim卡校验错误代码
+#define CMD_MACVERIFYERR        0X02      //MAC校验错误
+#define CMD_DATAFORMATERR       0x03      //数据格式错误。重新发送
+#define CMD_RE_REGISTER         0x04      //重新注册
+
+#define RES_COMMANDOK           0x01      //指令已接收
+#define RES_COMMANDERR          0x00      //指令重复，不可再发送
+
+
+#define ENABLE_SENDPRESSSERSONSTATUS     //使能发送压力状态
+/*********************************************************************************/
+
+//============================FLASH芯片参数定义=============================================
+#define  FLASH_EquipmentInfoAddress       0x000000     //设备信息保存位置，设备ID，
+#define  FLASH_WIFIInfoAddress            0x001000     //WIFI模块连接的路由器名称和密码
+#define  FLASH_ServerInfoAddress          0x002000     //保存服务器IP、服务器设置信息等
+#define  FLASH_VerifyInfoAddress          0x003000     //保存服务器token校验信息
+#define  FLASH_SaveSleepDataStartAddress  0x010000     /*保存统计数据的开始位置，该位置存储数据索引信息*/
+                                                       /*下一个位置开始存储数据，最大可保存2032组*4K的数据*/
+
+
+#define TRUE 1
+#define FALSE 0
+
+
+//--------ADC采样值处理参数--------------------
+#define  STANDARD_VOLTAGE  1500    //稳定基线
+#define  ECG_COMPARE_TIMES  3       //稳定状态监测次数
+#define  ECG_STABLE_SECTION1  20    //稳定值区间
+#define  ECG_STABLE_SECTION2  80    //数值放大区间1
+#define  ECG_STABLE_SECTION3  150    //数值放大区间2
+#define  ECG_STABLE_SECTION4  800     //数值放大区间2
+
+//#define  ADC_MAXDATA1     1600     //数值放大区间1、
+
+#define  ADC_MAXDATA1     1510     //数值放大区间1、
+#define  ADC_MAXDATA2     1650      //数值放大区间2   7.29测试范围为1800
+#define  ADC_MAXDATA3     1750       //数值放大区间3
+#define  ADC_MAXDATA4     2000       //数值放大区间4
+#define  ADC_CHGMAXDATA   2400
+#define  ADC_CHGMINDATA   2000
+#define  ADC_AMPSTADATA   2400
+#define  ADC_MINDATA1     1490     //数值放大区间1
+#define  ADC_MINDATA2     1250      //数值放大区间2
+#define  ADC_MINDATA3     1000       //数值放大区间2
+
+
+extern uint16_t  ECG_MAX[ECG_COMPARE_TIMES];                //ADC采样数值处理
+extern uint16_t  SEND_ECG_MAX[ECG_COMPARE_TIMES];
+extern uint16_t  ECG_MIN[ECG_COMPARE_TIMES]; 
+extern uint16_t  CHGECG_MAX[ECG_COMPARE_TIMES];                //ADC处理后数据
+extern uint16_t  CHGECG_MIN[ECG_COMPARE_TIMES]; 
+extern uint16_t  ADC_DATA[500]; 
+extern uint16_t  ECG_Data[500];
+extern uint8_t   ECG_COMPARE_COUNT;          //平稳值比较次数
+extern uint8_t   CHGECG_COMPARE_COUNT;          //平稳值比较次数
+extern char      Flag_ADC_ADJ;              //调整状态
+extern uint16_t  ADC_COUNT;                //ADC采样计数
+extern uint16_t  CHGADC_COUNT;                //ADC采样计数
+extern uint16_t  ADC_AdjTime;              //ADC采样平稳状态检查间隔时间
+extern float   ADC_AmpMultiple;    //放大倍数
+extern float   LastADC_AmpMultiple;    //上一次放大倍数
+
+
+//------------串口参数------------------------------
+#define UARTBUF_MAX_LEN  200
+
+#define UART_DEBUG  1
+#define UART_WIFI     2
+#define UART_TX_BUF_SIZE 256                         /**< UART TX buffer size. */
+#define UART_RX_BUF_SIZE 1                           /**< UART RX buffer size. */
+
+#define DEBUG_COM      1
+#define DEBUG_BLE      2
+
+extern char  UART_RX_BUFFER[UARTBUF_MAX_LEN];
+extern char  UART_TX_BUFFER[UARTBUF_MAX_LEN];
+extern uint16_t  UART_RX_LEN;
+extern uint8_t  UART_RX_STA;
+
+extern char  SIMUART_RX_BUFFER[UARTBUF_MAX_LEN];
+extern char  SIMUART_TX_BUFFER[UARTBUF_MAX_LEN];
+extern uint16_t  SIMUART_RX_LEN;
+extern uint8_t  SMINUART_RX_STA;
+
+extern uint16_t  UART_Data_Receive_Time;
+extern uint8_t UART_Receive_Right;  //正确格式字符串接收
+
+extern uint16_t  SIMUART_Data_Receive_Time;
+extern uint8_t  SIMUART_Receive_Right;  //正确格式字符串接收
+
+extern uint8_t Flag_Debug;
+extern uint8_t Flag_BT_Linkstatus;
+extern uint8_t ReceiveServerData[64];
+extern uint8_t ReceiveServerDatalen;
+extern uint8_t Flag_ReceivedServerOrder;
+extern uint8_t Flag_DataSendMode;   //数据传输模式
+
+//----------------时间参数---------------------------
+extern const nrf_drv_timer_t  TIMER_CH1 ; //定时器1
+extern const nrf_drv_timer_t  TIMER_CH2;
+
+#define  TIMEER1_SETTIME_MS       100        //定时器定时时间，单位ms
+
+
+#define  GETNETWORKSTATUSTIME     30     //30s查询一次网络状态
+#define  SLEEPDATA_CHANGETIME     300    //脱离监测时间改变数据传输速率
+#define  SLEEPDATA_SENDTIME_1MIN  60     //1分钟发送一次睡眠数据
+#define  SLEEPDATA_SENDTIME_20S   20     //20S发送一次睡眠数据
+#define  SLEEPDATA_SENDTIME_3S    3      //3S发送一次睡眠数据
+
+#define  NETWORKLINK_TIMEOUT_30S  30     //网络连接超时时间
+#define  NETWORKLINK_TIMEOUT_10S  10
+#define  NETWORKLINK_TIMEOUT_60S  60
+#define  NETWORKLINK_TIMEOUT_120S 120
+#define  SENDLINKSTATUS_TIME_5S    5    //发送连接状态时间间隔5s
+
+extern nrf_drv_wdt_channel_id m_channel_id;
+
+
+extern uint8_t delaytime;   //时间参数
+extern uint8_t delaytime1;   //时间参数
+struct Time   //
+{
+	 uint16_t Msec;
+	 uint8_t Sec;
+	 uint8_t Min;
+	 uint8_t Hour;
+	 uint16_t Day;
+};
+extern struct   Time TimerSim;              //模拟时钟
+extern uint8_t  RealTime[6];              //实时时间
+
+extern uint16_t   Monitor_Offline_Time;    //脱离监测计时，
+extern uint16_t  Time_NetworkInquire;     //查询网络时间计时
+extern uint16_t  WIFI_ConnetTime;           //联网时间
+extern uint16_t  WiFi_Time ;             //wifi模块指令时间
+extern uint16_t  Link_Time ;            //网络连接时间
+extern uint8_t   Flag_TimeAdj;          //用于时间校准，1分钟之内不和服务器进行两次校准
+extern uint8_t   Adj_Time ;             //校准时间计时
+extern uint8_t   GetSleepDataTimeCount; //发送睡眠数据计时
+extern uint16_t  LedFlash;			//控制ed闪烁
+extern uint16_t  WiFi_InitTime;  //wifi初始化时间
+extern uint8_t  BLE_ReceiveDataTime;   //BLE接收数据的时间
+
+//------------蓝牙参数-------------------------------------------
+#define  BT_NoCONNECT  0
+#define  BT_CONNECTED  1
+#define  Flag_FirstRun   0x55       //程序第一次运行，清除Flash，保存默认数据
+#define  APP_RX_BUF_SIZE   100
+#define  ENABLESENDDATAAPP  1
+#define  DISABLESENDDATAAPP  0
+
+extern char APP_Order_Receive_Data[APP_RX_BUF_SIZE];   //用于保存app发送的指令串，
+extern uint8_t APP_Order_Receive_len ;    //APP指令串长度
+extern uint8_t APP_Order_Send_len;       //需要发送的数据长度，不包括指令及包头包尾格式数据
+extern uint8_t APP_Receive_Right ;      //接收到APP数据
+extern uint8_t  BlueTooth_Name[20];    //蓝牙名称，默认为DEVICE_NAME，可APP修改
+extern uint8_t BlueTooth_Name_Len;    //蓝牙名称长度
+extern uint8_t Flag_SetWiFiSSID;      //设置wifi模块连接的路由器
+extern uint8_t Flag_SendLinkStatus; //发送设备当前的连接状态
+extern uint8_t SendLinkStatus_Time;  //发送设备当前的连接状态间隔时间
+
+
+//------------睡眠数据相关参数-------------------------------------------
+#define SLEEPDTATABUF   100
+
+extern unsigned char SleepData[50];
+
+extern uint8_t Last_gPeopleFlag;   //是否有人的状态
+extern uint8_t Last_noPeopleFlag;   
+extern uint8_t Last_gTurnFlag;
+extern uint8_t Last_StatusFlag; //上一个状态
+extern uint8_t BeforeLast_StatusFlag; //上上一个状态
+extern uint8_t Keep_StatusFlag; //现在保持的状态状态
+extern uint8_t Flag_SendAMPCHGToServer;  //发送放大倍数到服务器
+
+
+extern  unsigned char Buffer_SleepData[SLEEPDTATABUF][40];   //数据缓存
+extern  uint16_t  Flag_SleepDataBuffer_Save;
+extern  uint16_t  Flag_SleepDataBuffer_Send;
+extern  uint8_t   SleepDataBuffer_SendTime;
+extern  uint8_t   Flag_SleepData_SendOver;
+extern  uint8_t    Last_SendIntervalTime;
+
+
+extern unsigned char Statist_TurnStartTimebuf[6];  //断网统计开始时间
+extern unsigned char Statist_PeopleStartTimebuf[6];    //
+extern unsigned char Statist_NoPeopleStartTimebuf[6]; 
+extern unsigned char Statist_TurnEndTimebuf[6];  //断网统计结束时间
+extern unsigned char Statist_PeopleEndTimebuf[6];    //
+extern unsigned char Statist_NoPeopleEndTimebuf[6]; 
+extern uint32_t  Statist_AddHR;       //断网统计心率累加
+extern uint32_t  Statist_AddRR;       //断网统计呼吸累加
+extern uint16_t  Statist_AddCount;    //断网统计呼吸/心率累加次数
+extern unsigned char   Save_SleepHRData[6];  //断网情况下6组心率呼吸数据
+extern unsigned char   Save_SleepRRData[6];  //断网情况下6组心率呼吸数据
+extern uint8_t   Flag_SavepPos;
+extern uint16_t TurnKeepTime ;       //统计计时时间
+extern uint16_t  PeopleKeepTime ;       //统计计时时间
+extern uint16_t   NoPeopleKeepTime ;       //统计计时时间
+extern uint8_t   Flag_NoNetWorkStart;        //断网开始标志
+extern uint8_t  Flag_CanSendStatistData;      //可以发送统计数据
+extern uint8_t  CanSendStatistTime;          //统计数据接收间隔时间
+
+extern uint8_t    Last_gPulseRateHR;   //保存上次的心率数值，当心率异常时发送上次的数据
+extern uint8_t    Last_gPulseRateRR;   //保存上次的呼吸数值，当心率异常时发送上次的数据
+extern uint8_t    ABN_gPulseRateHR;   //保存异常的心率数值，当心率异常时发送上次的数据，
+extern uint8_t    ABN_gPulseRateRR;   //保存异常的呼吸数值，当心率异常时发送上次的数据，
+extern uint8_t    Flag_SendDataAbnormal;   //发送异常标记，当心率呼吸异常的时候发送，
+
+//--------------网络参数---------------------------
+#define  SERVER_IP1        "117.78.41.203"   //前置服务器IP
+#define  SERVER_IP1_PORT   "6007"           //按指令方式获取后置IP的端口
+
+
+#define CONNECTIP1         1     //连接前置服务器
+#define GETIP2             2     //获取后置服务器IP 
+#define CONNECTIP2         3     //连接后置服务器
+#define GETTOKEN2          4     //获取后置服务器校验码
+#define BACKSERVERVERFY    5     //后置服务器校验
+#define SENDSLEEPDATA      6     //发送实时数据
+
+#define  MODULESTATUS_INIT        0X01   //设备初始化中
+#define  MODULESTATUS_LINKSERVER  0X02   //连接服务器
+#define  MODULESTATUS_ROUTERERR   0X03   //路由器链接失败
+#define  MODULESTATUS_SENDDATA    0X04   //发送数据中
+#define  MODULESTATUS_LINKSERVERERR  0X05   //连接服务器失败
+
+#define WIFI_INIT_STEP1        1       //wifi初始化过程1
+#define WIFI_INIT_STEP2        2       //wifi初始化过程2
+#define WIFI_INIT_STEP3        3       //wifi初始化过程3
+#define WIFI_INIT_STEP4        4       //wifi初始化过程4
+#define WIFI_INIT_STEP5        5       //wifi初始化过程5
+#define WIFI_INIT_STEP6        6       //wifi初始化过程6
+#define WIFI_INIT_STEP7        7       //wifi初始化过程7
+
+
+#define STEP_SEND          1     //发送数据
+#define STEP_RECEIVE       2     // 接收数据
+
+extern  uint8_t Flag_StepStatus;   //连接步骤的状态，分为发送数据和接收数据
+extern  uint8_t Flag_Reset_RouterSSID;  //重新设置wifi模块连接的路由器
+extern  uint8_t Flag_WIFIInitStep;     //wifi初始化的过程步骤
+extern  uint8_t LinkIPCount;     //服务器连接次数
+	
+extern char Router_Name[35];  //路由器名称和密码
+extern uint8_t Router_NameLen;  
+extern char Router_PWD[35];
+extern uint8_t  Router_PWDLen;
+
+extern char RouterName_InWIFI[75];  //wifi模块中路由器名称和密码
+
+extern unsigned char CSQNual;
+extern int Position_LAC;
+extern int Position_CID;
+extern uint8_t Socket;
+extern unsigned char SIMCard_IMSI[20];
+extern uint8_t SIMCard_IMSI_Len;
+extern uint8_t Command_SendCount;
+extern char IP2[30];
+extern char Port2[5];
+extern char Token2[15]; 
+extern uint8_t Token2_Len;
+extern uint8_t LinkStep;         //服务器连接步骤
+extern uint8_t LinkVerfyDataSendOver; //校验数据已发送
+
+extern uint8_t    Flag_Binding_Users ;  //设备是否绑定用户,
+extern uint16_t   SleepData_SendTime;  //睡眠数据发送的时间
+extern uint16_t   No_Binding_Users_Time ; //未关联用户计时，
+extern uint8_t    Flag_No_Binding_Users_Time;//未关联用户计时标志，
+
+
+
+/******************压力开关******************************/
+#define 	EXTSENSOR_ISIN            1
+#define 	EXTSENSOR_ISOUT           0
+#define 	EXTSENSOR_PEOPLEONBED     1
+#define 	EXTSENSOR_PEOPLEOFFBED    0	
+
+
+extern uint8_t Status_ExtSensorIn;    //外部传感器是否插入状态  
+extern uint8_t Status_ExtSensorOnbed;    //外部传感器是否有人在床状态  
+extern uint8_t ExtSensor_OnbedStatus_Count;  //传感器在床状态次数统计，累计多次状态一致才确定是否在床 
+extern uint8_t OnbedStatus_CountTimer;   //外部传感器在床状态统计间隔时间
+extern uint8_t LastOnbedStatus;          //上一次的在床状态 
+extern uint8_t Flag_SendPresensorStatus;  //发送压力传感器状态
+extern uint8_t SendPresensorStatus_Time;  //发送压力传感器时间
+
+extern  char Flag_PeopleTurnforPresensor ;       //体动信号为压力检测
+
+
+//------------------------------------------------
+
+#define  NO_ERROR                 0x00  
+#define  ERROR_N0_MAC             0X01    //设备无编号
+#define  ERROR_NO_IP2            0X02    //设备无IP2
+
+extern char  *SoftVer;
+extern char MAC_ID[20];
+extern uint8_t MAC_LEN;
+extern uint8_t Flag_init ;            //初始化进程
+extern uint8_t Flag_LED_Status;       //LED显示状态
+extern uint8_t LED_FlickerCount;      //LED闪烁次数
+extern uint8_t Flag_Check_Status ;
+extern uint8_t Flag_PowerOn;       //是否是上电
+extern uint8_t Flag_Reregistration;  //重新注册
+extern uint8_t Flag_Start_Mode ;   //网络重连的原因：上电重启还是断网重连，
+extern uint8_t Flag_Send_GPRS_Position ;  //发送一次GPRS位置
+extern int32_t Max_ECG;    //最大心率强度
+extern int32_t Min_ECG ;    //最小心率强度
+extern uint16_t Average_MAXECG; //
+
+#endif
+

@@ -1,0 +1,15 @@
+.\output\system_nrf52.o: RTE\Device\nRF52832_xxAA\system_nrf52.c
+.\output\system_nrf52.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\system_nrf52.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h
+.\output\system_nrf52.o: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h

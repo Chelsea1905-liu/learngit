@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp
+".\APP\sleep-hr10-hr34-tn3000-mm800.lib"
+--library_type=microlib --strict --scatter ".\Objects\s132_nrf52_2.0.0_softdevice.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\s132_nrf52_2.0.0_softdevice.map" -o .\Objects\s132_nrf52_2.0.0_softdevice.hex

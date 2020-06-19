@@ -1,0 +1,1603 @@
+Dependencies for Project 'Sleep_WiFi', Target 'WIFI': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\APP\app_gpio_in_out.c)(0x5ECB665E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_gpio_in_out.o --omf_browse .\output\app_gpio_in_out.crf --depend .\output\app_gpio_in_out.d)
+I (APP\app_gpio_in_out.h)(0x5E940663)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Drivers\saadc\nrf_drv_saadc.h)(0x5EC772BA)
+I (.\Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+I (.\Libraries\pwm\app_pwm.h)(0x56E1A84E)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (.\Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (APP\Parameter.h)(0x5EE1A7E7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (.\RSA\FilterPeak.h)(0x5EE033A9)
+I (APP\Fun.h)(0x5EE18BD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (APP\MD5.h)(0x58F6D8A3)
+I (APP\ring_buffer.h)(0x5EC7477D)
+I (.\Drivers\Bluetooth\BLE_NRF.h)(0x5E940BAD)
+I (.\Drivers\bsp\bsp.h)(0x581C0480)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+I (.\APP\softdevice_handler.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble_hci.h)(0x56B8A8A0)
+I (.\BLE\common\ble_advdata.h)(0x56E1A84E)
+I (.\BLE\ble_advertising\ble_advertising.h)(0x5E5CAD9D)
+I (.\BLE\common\ble_conn_params.h)(0x56E1A84E)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (.\BLE\ble_services\ble_nus\ble_nus.h)(0x56E1A84E)
+I (.\Drivers\bsp\bsp_btn_ble.h)(0x56E1A84F)
+I (.\BLE\ble_services\ble_dis\ble_dis.h)(0x56E1A84E)
+I (.\Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (.\Drivers\flash\FLASH.h)(0x5B14DE2C)
+I (.\APP\Fun.h)(0x5EE18BD5)
+I (APP\app_it.h)(0x5EC776C6)
+F (.\APP\main.c)(0x5EE1DFF1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (APP\main.h)(0x5EE1A717)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+I (.\Drivers\bsp\bsp.h)(0x581C0480)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (APP\app_gpio_in_out.h)(0x5E940663)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\saadc\nrf_drv_saadc.h)(0x5EC772BA)
+I (.\Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (.\Libraries\pwm\app_pwm.h)(0x56E1A84E)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (.\Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (APP\Parameter.h)(0x5EE1A7E7)
+I (.\Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (.\RSA\FilterPeak.h)(0x5EE033A9)
+I (APP\Fun.h)(0x5EE18BD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (APP\MD5.h)(0x58F6D8A3)
+I (APP\ring_buffer.h)(0x5EC7477D)
+I (.\Drivers\Bluetooth\BLE_NRF.h)(0x5E940BAD)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+I (.\APP\softdevice_handler.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble_hci.h)(0x56B8A8A0)
+I (.\BLE\common\ble_advdata.h)(0x56E1A84E)
+I (.\BLE\ble_advertising\ble_advertising.h)(0x5E5CAD9D)
+I (.\BLE\common\ble_conn_params.h)(0x56E1A84E)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (.\BLE\ble_services\ble_nus\ble_nus.h)(0x56E1A84E)
+I (.\Drivers\bsp\bsp_btn_ble.h)(0x56E1A84F)
+I (.\BLE\ble_services\ble_dis\ble_dis.h)(0x56E1A84E)
+I (.\Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (.\Drivers\flash\FLASH.h)(0x5B14DE2C)
+I (.\APP\Fun.h)(0x5EE18BD5)
+I (APP\app_it.h)(0x5EC776C6)
+I (APP\nrf_drv_clock.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_clock.h)(0x59B7A6E1)
+F (.\Drivers\bsp\bsp_btn_ble.c)(0x56E1A84F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\bsp_btn_ble.o --omf_browse .\output\bsp_btn_ble.crf --depend .\output\bsp_btn_ble.d)
+I (Drivers\bsp\bsp_btn_ble.h)(0x56E1A84F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (Drivers\bsp\bsp.h)(0x581C0480)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+F (.\Drivers\bsp\bsp.c)(0x5E8E9D8F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\bsp.o --omf_browse .\output\bsp.crf --depend .\output\bsp.d)
+I (Drivers\bsp\bsp.h)(0x581C0480)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+F (.\Drivers\flash\FLASH.c)(0x5E61AF9F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\flash.o --omf_browse .\output\flash.crf --depend .\output\flash.d)
+I (Drivers\flash\FLASH.h)(0x5B14DE2C)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+F (.\Drivers\Bluetooth\BLE_NRF.c)(0x5EA24948)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_nrf.o --omf_browse .\output\ble_nrf.crf --depend .\output\ble_nrf.d)
+I (Drivers\Bluetooth\BLE_NRF.h)(0x5E940BAD)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+I (.\Drivers\bsp\bsp.h)(0x581C0480)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (.\Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+I (.\APP\softdevice_handler.h)(0x56E1A84F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble_hci.h)(0x56B8A8A0)
+I (.\BLE\common\ble_advdata.h)(0x56E1A84E)
+I (.\BLE\ble_advertising\ble_advertising.h)(0x5E5CAD9D)
+I (.\BLE\common\ble_conn_params.h)(0x56E1A84E)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (.\BLE\ble_services\ble_nus\ble_nus.h)(0x56E1A84E)
+I (.\Drivers\bsp\bsp_btn_ble.h)(0x56E1A84F)
+I (.\BLE\ble_services\ble_dis\ble_dis.h)(0x56E1A84E)
+I (.\Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (.\Drivers\flash\FLASH.h)(0x5B14DE2C)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (.\APP\Fun.h)(0x5EE18BD5)
+I (.\APP\app_gpio_in_out.h)(0x5E940663)
+I (.\Drivers\saadc\nrf_drv_saadc.h)(0x5EC772BA)
+I (.\Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (.\Libraries\pwm\app_pwm.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (.\APP\Parameter.h)(0x5EE1A7E7)
+I (.\Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (.\RSA\FilterPeak.h)(0x5EE033A9)
+I (.\APP\app_it.h)(0x5EC776C6)
+I (.\APP\MD5.h)(0x58F6D8A3)
+I (.\APP\ring_buffer.h)(0x5EC7477D)
+I (.\Drivers\Bluetooth\BLE_NRF.h)(0x5E940BAD)
+F (.\APP\Parameter.c)(0x5EE1A7D8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\parameter.o --omf_browse .\output\parameter.crf --depend .\output\parameter.d)
+I (APP\Parameter.h)(0x5EE1A7E7)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (.\RSA\FilterPeak.h)(0x5EE033A9)
+F (.\APP\Fun.c)(0x5EE1C384)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\fun.o --omf_browse .\output\fun.crf --depend .\output\fun.d)
+I (APP\Fun.h)(0x5EE18BD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (APP\app_gpio_in_out.h)(0x5E940663)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (.\Drivers\saadc\nrf_drv_saadc.h)(0x5EC772BA)
+I (.\Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (.\Libraries\pwm\app_pwm.h)(0x56E1A84E)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (APP\Parameter.h)(0x5EE1A7E7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (.\RSA\FilterPeak.h)(0x5EE033A9)
+I (APP\app_it.h)(0x5EC776C6)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (APP\MD5.h)(0x58F6D8A3)
+I (APP\ring_buffer.h)(0x5EC7477D)
+I (.\Drivers\Bluetooth\BLE_NRF.h)(0x5E940BAD)
+I (.\Drivers\bsp\bsp.h)(0x581C0480)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (.\APP\softdevice_handler.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble_hci.h)(0x56B8A8A0)
+I (.\BLE\common\ble_advdata.h)(0x56E1A84E)
+I (.\BLE\ble_advertising\ble_advertising.h)(0x5E5CAD9D)
+I (.\BLE\common\ble_conn_params.h)(0x56E1A84E)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (.\BLE\ble_services\ble_nus\ble_nus.h)(0x56E1A84E)
+I (.\Drivers\bsp\bsp_btn_ble.h)(0x56E1A84F)
+I (.\BLE\ble_services\ble_dis\ble_dis.h)(0x56E1A84E)
+I (.\Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (.\Drivers\flash\FLASH.h)(0x5B14DE2C)
+I (APP\main.h)(0x5EE1A717)
+F (.\APP\app_it.c)(0x5EE1DCEE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_it.o --omf_browse .\output\app_it.crf --depend .\output\app_it.d)
+I (APP\app_it.h)(0x5EC776C6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+I (.\Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+I (APP\app_gpio_in_out.h)(0x5E940663)
+I (.\Drivers\bsp\boards.h)(0x5E982AAA)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (.\Drivers\saadc\nrf_drv_saadc.h)(0x5EC772BA)
+I (.\Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (.\Libraries\pwm\app_pwm.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (APP\Parameter.h)(0x5EE1A7E7)
+I (.\Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (.\RSA\FilterPeak.h)(0x5EE033A9)
+I (APP\Fun.h)(0x5EE18BD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (APP\MD5.h)(0x58F6D8A3)
+I (APP\ring_buffer.h)(0x5EC7477D)
+I (.\Drivers\Bluetooth\BLE_NRF.h)(0x5E940BAD)
+I (.\Drivers\bsp\bsp.h)(0x581C0480)
+I (.\APP\app_button.h)(0x56E1A84E)
+I (.\APP\softdevice_handler.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\common\softdevice_handler\app_ram_base.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble_hci.h)(0x56B8A8A0)
+I (.\BLE\common\ble_advdata.h)(0x56E1A84E)
+I (.\BLE\ble_advertising\ble_advertising.h)(0x5E5CAD9D)
+I (.\BLE\common\ble_conn_params.h)(0x56E1A84E)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (.\BLE\ble_services\ble_nus\ble_nus.h)(0x56E1A84E)
+I (.\Drivers\bsp\bsp_btn_ble.h)(0x56E1A84F)
+I (.\BLE\ble_services\ble_dis\ble_dis.h)(0x56E1A84E)
+I (.\Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (.\Drivers\flash\FLASH.h)(0x5B14DE2C)
+I (.\APP\Fun.h)(0x5EE18BD5)
+F (.\APP\MD5.c)(0x5901526A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\md5.o --omf_browse .\output\md5.crf --depend .\output\md5.d)
+I (APP\md5.h)(0x58F6D8A3)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\Drivers\wdt\nrf_drv_wdt.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_wdt.o --omf_browse .\output\nrf_drv_wdt.crf --depend .\output\nrf_drv_wdt.d)
+I (Drivers\wdt\nrf_drv_wdt.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Drivers\hal\nrf_wdt.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\APP\ring_buffer.c)(0x5EC88F31)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ring_buffer.o --omf_browse .\output\ring_buffer.crf --depend .\output\ring_buffer.d)
+I (APP\ring_buffer.h)(0x5EC7477D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (.\RSA\sleep_1_5.lib)(0x5ED9E892)()
+F (.\Drivers\delay\nrf_delay.c)(0x5EC8C7A7)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1" --pd "BSP_DEFINES_ONLY SETA 1" --pd "BOARD_PCA10040 SETA 1" --pd "NRF52_PAN_12 SETA 1" --pd "NRF52_PAN_15 SETA 1" --pd "NRF52_PAN_20 SETA 1" --pd "NRF52_PAN_30 SETA 1" --pd "NRF52_PAN_31 SETA 1" --pd "NRF52_PAN_36 SETA 1" --pd "NRF52_PAN_51 SETA 1" --pd "NRF52_PAN_53 SETA 1" --pd "NRF52_PAN_54 SETA 1" --pd "NRF52_PAN_55 SETA 1" --pd "NRF52_PAN_58 SETA 1" --pd "NRF52_PAN_62 SETA 1" --pd "NRF52_PAN_63 SETA 1" --pd "NRF52_PAN_64 SETA 1" --pd "NRF52 SETA 1"--list .\listings\nrf_delay.lst --xref -o .\output\nrf_delay.o)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (Drivers\delay\nrf_delay.h)(0x59759F88)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+F (.\Drivers\uart\nrf_drv_uart.c)(0x59C1C371)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_uart.o --omf_browse .\output\nrf_drv_uart.crf --depend .\output\nrf_drv_uart.d)
+I (Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\Drivers\common\nrf_drv_common.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_common.o --omf_browse .\output\nrf_drv_common.crf --depend .\output\nrf_drv_common.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\Libraries\gpiote\nrf_drv_gpiote.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_gpiote.o --omf_browse .\output\nrf_drv_gpiote.crf --depend .\output\nrf_drv_gpiote.d)
+I (Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Drivers\timer\nrf_drv_timer.c)(0x59BFA325)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_timer.o --omf_browse .\output\nrf_drv_timer.crf --depend .\output\nrf_drv_timer.d)
+I (Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\Drivers\ppi\nrf_drv_ppi.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_ppi.o --omf_browse .\output\nrf_drv_ppi.crf --depend .\output\nrf_drv_ppi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+F (.\Libraries\uart\app_uart_fifo.c)(0x59C1D4C3)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_uart_fifo.o --omf_browse .\output\app_uart_fifo.crf --depend .\output\app_uart_fifo.d)
+I (Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Libraries\fifo\app_fifo.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Drivers\uart\nrf_drv_uart.h)(0x5841493E)
+I (.\Drivers\hal\nrf_uart.h)(0x5884222E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Drivers\hal\nrf_uarte.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+F (.\Drivers\saadc\nrf_drv_saadc.c)(0x5833C325)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_saadc.o --omf_browse .\output\nrf_drv_saadc.crf --depend .\output\nrf_drv_saadc.d)
+I (Drivers\saadc\nrf_drv_saadc.h)(0x5EC772BA)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\Drivers\hal\nrf_saadc.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_saadc.o --omf_browse .\output\nrf_saadc.crf --depend .\output\nrf_saadc.d)
+I (Drivers\hal\nrf_saadc.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Drivers\pstorage\pstorage.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\pstorage.o --omf_browse .\output\pstorage.crf --depend .\output\pstorage.d)
+I (Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+F (.\APP\nrf_drv_clock.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_drv_clock.o --omf_browse .\output\nrf_drv_clock.crf --depend .\output\nrf_drv_clock.d)
+I (APP\nrf_drv_clock.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_clock.h)(0x59B7A6E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\Libraries\util\app_error.c)(0x59842E56)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_error.o --omf_browse .\output\app_error.crf --depend .\output\app_error.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (Libraries\util\nordic_common.h)(0x56E1A84E)
+I (Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Libraries\uart\retarget.c)(0x5E55DDB4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\retarget.o --omf_browse .\output\retarget.crf --depend .\output\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (Libraries\uart\app_uart.h)(0x5E60ECC3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Libraries\util\app_error_weak.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_error_weak.o --omf_browse .\output\app_error_weak.crf --depend .\output\app_error_weak.d)
+I (Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (Libraries\util\nordic_common.h)(0x56E1A84E)
+I (Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Libraries\fstorage\fstorage.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\fstorage.o --omf_browse .\output\fstorage.crf --depend .\output\fstorage.d)
+I (Libraries\fstorage\fstorage.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Libraries\experimental_section_vars\section_vars.h)(0x56E1A84E)
+I (.\Libraries\fstorage\config\fstorage_config.h)(0x56E1A84E)
+I (Libraries\fstorage\fstorage_internal_defs.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+F (.\Libraries\util\app_util_platform.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_util_platform.o --omf_browse .\output\app_util_platform.crf --depend .\output\app_util_platform.d)
+I (Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (Libraries\util\nordic_common.h)(0x56E1A84E)
+I (Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Libraries\util\nrf_assert.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\nrf_assert.o --omf_browse .\output\nrf_assert.crf --depend .\output\nrf_assert.d)
+I (Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (Libraries\util\nordic_common.h)(0x56E1A84E)
+I (Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Libraries\fifo\app_fifo.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_fifo.o --omf_browse .\output\app_fifo.crf --depend .\output\app_fifo.d)
+I (Libraries\fifo\app_fifo.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+F (.\Libraries\pwm\app_pwm.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_pwm.o --omf_browse .\output\app_pwm.crf --depend .\output\app_pwm.d)
+I (Libraries\pwm\app_pwm.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Drivers\timer\nrf_drv_timer.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_timer.h)(0x59B0EB4A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+I (.\Drivers\ppi\nrf_drv_ppi.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_ppi.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_resources.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sd_def.h)(0x56E1A84F)
+I (.\Libraries\gpiote\nrf_drv_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpiote.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_gpio.h)(0x5983C75C)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+F (.\Libraries\timer\app_timer.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\app_timer.o --omf_browse .\output\app_timer.crf --depend .\output\app_timer.d)
+I (Libraries\timer\app_timer.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\Drivers\delay\nrf_delay.h)(0x59759F88)
+I (.\Libraries\util\app_util_platform.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_macros.h)(0x56E1A84E)
+F (.\Doc\readme.txt)(0x5A24B3F3)()
+F (.\softdevice\common\softdevice_handler\softdevice_handler.c)(0x56E1A84F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\softdevice_handler.o --omf_browse .\output\softdevice_handler.crf --depend .\output\softdevice_handler.d)
+I (softdevice\common\softdevice_handler\softdevice_handler.h)(0x56E1A84F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_sdm.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error_sdm.h)(0x56B8A8A0)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+I (softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56E1A84F)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56E1A84F)
+I (softdevice\common\softdevice_handler\app_ram_base.h)(0x56E1A84F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\nrf_assert.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\nrf_nvic.h)(0x56C4960C)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+I (.\APP\nrf_drv_config.h)(0x5ECB665E)
+I (.\Drivers\config\nrf_drv_config_validation.h)(0x56E1A84E)
+I (.\APP\nrf_drv_clock.h)(0x56E1A84E)
+I (.\Drivers\hal\nrf_clock.h)(0x59B7A6E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (.\Drivers\common\nrf_drv_common.h)(0x56E1A84E)
+F (.\BLE\ble_advertising\ble_advertising.c)(0x5E93DBA8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_advertising.o --omf_browse .\output\ble_advertising.crf --depend .\output\ble_advertising.d)
+I (.\BLE\common\ble_advdata.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (BLE\ble_advertising\ble_advertising.h)(0x5E5CAD9D)
+I (.\softdevice\s132\headers\nrf_soc.h)(0x56C4960C)
+I (.\softdevice\s132\headers\nrf_error_soc.h)(0x56B8A8A0)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Drivers\pstorage\pstorage.h)(0x56E1A84E)
+I (.\Drivers\pstorage\config\pstorage_platform.h)(0x5882C658)
+I (.\Libraries\fstorage\fstorage.h)(0x56E1A84E)
+I (.\Libraries\experimental_section_vars\section_vars.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+F (.\BLE\ble_services\ble_dis\ble_dis.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_dis.o --omf_browse .\output\ble_dis.crf --depend .\output\ble_dis.d)
+I (BLE\ble_services\ble_dis\ble_dis.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\BLE\ble_services\ble_nus\ble_nus.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_nus.o --omf_browse .\output\ble_nus.crf --depend .\output\ble_nus.d)
+I (BLE\ble_services\ble_nus\ble_nus.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+F (.\BLE\common\ble_advdata.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_advdata.o --omf_browse .\output\ble_advdata.crf --depend .\output\ble_advdata.d)
+I (BLE\common\ble_advdata.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_common.h)(0x56E1A84E)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_os.h)(0x56E1A84E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+F (.\BLE\common\ble_conn_params.c)(0x583E73BA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_conn_params.o --omf_browse .\output\ble_conn_params.crf --depend .\output\ble_conn_params.d)
+I (BLE\common\ble_conn_params.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\softdevice\s132\headers\ble_hci.h)(0x56B8A8A0)
+I (.\Libraries\timer\app_timer.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\BLE\common\ble_srv_common.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\ble_srv_common.o --omf_browse .\output\ble_srv_common.crf --depend .\output\ble_srv_common.d)
+I (BLE\common\ble_srv_common.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (.\softdevice\s132\headers\ble_types.h)(0x56B8A8A0)
+I (.\Libraries\util\app_util.h)(0x56E1A84E)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (.\softdevice\s132\headers\ble.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_ranges.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gap.h)(0x59C0737F)
+I (.\softdevice\s132\headers\nrf_svc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_l2cap.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_err.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\nrf_error.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatt.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gattc.h)(0x56B8A8A0)
+I (.\softdevice\s132\headers\ble_gatts.h)(0x56B8A8A0)
+I (.\APP\ble_gap.h)(0x5BD81703)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (.\Libraries\util\nordic_common.h)(0x56E1A84E)
+I (.\Libraries\util\app_error.h)(0x5984271E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (.\Libraries\util\sdk_errors.h)(0x56E1A84E)
+I (.\Libraries\util\nrf_log.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (.\Libraries\util\app_error_weak.h)(0x56E1A84E)
+F (.\Drivers\segger_rtt\SEGGER_RTT.c)(0x56E1A850)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\segger_rtt.o --omf_browse .\output\segger_rtt.crf --depend .\output\segger_rtt.d)
+I (Drivers\segger_rtt\SEGGER_RTT.h)(0x56E1A850)
+I (Drivers\segger_rtt\SEGGER_RTT_Conf.h)(0x56E1A850)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (.\Drivers\segger_rtt\SEGGER_RTT_printf.c)(0x56E1A850)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\segger_rtt_printf.o --omf_browse .\output\segger_rtt_printf.crf --depend .\output\segger_rtt_printf.d)
+F (.\Drivers\segger_rtt\RTT_Syscalls_KEIL.c)(0x56E1A850)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\rtt_syscalls_keil.o --omf_browse .\output\rtt_syscalls_keil.crf --depend .\output\rtt_syscalls_keil.d)
+F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x57EE11CE)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1" --pd "BSP_DEFINES_ONLY SETA 1" --pd "BOARD_PCA10040 SETA 1" --pd "NRF52_PAN_12 SETA 1" --pd "NRF52_PAN_15 SETA 1" --pd "NRF52_PAN_20 SETA 1" --pd "NRF52_PAN_30 SETA 1" --pd "NRF52_PAN_31 SETA 1" --pd "NRF52_PAN_36 SETA 1" --pd "NRF52_PAN_51 SETA 1" --pd "NRF52_PAN_53 SETA 1" --pd "NRF52_PAN_54 SETA 1" --pd "NRF52_PAN_55 SETA 1" --pd "NRF52_PAN_58 SETA 1" --pd "NRF52_PAN_62 SETA 1" --pd "NRF52_PAN_63 SETA 1" --pd "NRF52_PAN_64 SETA 1" --pd "NRF52 SETA 1"--list .\listings\arm_startup_nrf52.lst --xref -o .\output\arm_startup_nrf52.o --depend .\output\arm_startup_nrf52.d)
+F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x5E55DADB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\APP -I .\BLE\ble_advertising -I .\BLE\ble_services\ble_dis -I .\BLE\ble_services\ble_nus -I .\BLE\common -I .\Doc -I .\Drivers\bsp -I .\Drivers\common -I .\Drivers\config -I .\Drivers\delay -I .\Drivers\flash -I .\Drivers\hal -I .\Drivers\ppi -I .\Drivers\pstorage\config -I .\Drivers\pstorage -I .\Drivers\RTE -I .\Drivers\saadc -I .\Drivers\segger_rtt -I .\Drivers\timer -I .\Drivers\uart -I .\Libraries\fifo -I .\Libraries\fstorage -I .\Libraries\gpiote -I .\Libraries\pwm -I .\Libraries\timer -I .\Libraries\uart -I .\Libraries\util -I .\RTE\Device\nRF52832_xxAA -I .\softdevice\common\softdevice_handler -I .\softdevice\s132\headers -I .\Libraries\experimental_section_vars -I .\Libraries\fstorage\config -I .\Drivers\bsp -I .\Drivers\Bluetooth -I .\Drivers\simuart -I .\Drivers\wifi -I .\Drivers\wdt -I .\RSA-I.\RTE\_WIFI-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DNRF52 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DCONFIG_NFCT_PINS_AS_GPIOS -DSWI_DISABLE0-o .\output\system_nrf52.o --omf_browse .\output\system_nrf52.crf --depend .\output\system_nrf52.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h)(0x56CC2CE2)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h)(0x56CC2CE4)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h)(0x56CC2CE4)

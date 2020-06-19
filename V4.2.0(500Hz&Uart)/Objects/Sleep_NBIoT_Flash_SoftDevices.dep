@@ -1,0 +1,45 @@
+Dependencies for Project 'Sleep_NBIoT', Target 'Flash_SoftDevices': (DO NOT MODIFY !)
+F (.\APP\app_gpio_in_out.c)(0x59B24BA8)()
+F (.\APP\main.c)(0x59BA3EF3)()
+F (.\Drivers\bsp\bsp_btn_ble.c)(0x56E1A84F)()
+F (.\Drivers\bsp\bsp.c)(0x581C0475)()
+F (.\Drivers\flash\FLASH.c)(0x59A8D137)()
+F (.\Drivers\Bluetooth\BLE_NRF.c)(0x59B77EE7)()
+F (.\Drivers\NBIOT\NB_BC95.c)(0x59BA36E0)()
+F (.\APP\Parameter.c)(0x59B88D15)()
+F (.\Drivers\delay\nrf_delay.c)(0x56E1A84E)()
+F (.\Drivers\uart\nrf_drv_uart.c)(0x59B9CE28)()
+F (.\Drivers\common\nrf_drv_common.c)(0x56E1A84E)()
+F (.\Libraries\gpiote\nrf_drv_gpiote.c)(0x56E1A84E)()
+F (.\Drivers\timer\nrf_drv_timer.c)(0x56E1A84E)()
+F (.\Drivers\ppi\nrf_drv_ppi.c)(0x56E1A84E)()
+F (.\Libraries\uart\app_uart_fifo.c)(0x59B8C91C)()
+F (.\Drivers\saadc\nrf_drv_saadc.c)(0x5833C325)()
+F (.\Drivers\hal\nrf_saadc.c)(0x56E1A84E)()
+F (.\Drivers\pstorage\pstorage.c)(0x56E1A84E)()
+F (.\APP\nrf_drv_clock.c)(0x56E1A84E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections-I E:\Ë¯Ãß´ø³ÌÐò\NB-IoT°æ\V0.0.2\RTE-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.9.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -D_RTE_ -DNRF52-o .\objects\nrf_drv_clock.o --omf_browse .\objects\nrf_drv_clock.crf --depend .\objects\nrf_drv_clock.d)
+I (APP\nrf_drv_clock.h)(0x56E1A84E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+F (.\Libraries\util\app_error.c)(0x59842E56)()
+F (.\Libraries\uart\retarget.c)(0x56E1A84E)()
+F (.\Libraries\util\app_error_weak.c)(0x56E1A84E)()
+F (.\Libraries\fstorage\fstorage.c)(0x56E1A84E)()
+F (.\Libraries\util\app_util_platform.c)(0x56E1A84E)()
+F (.\Libraries\util\nrf_assert.c)(0x56E1A84E)()
+F (.\Libraries\fifo\app_fifo.c)(0x56E1A84E)()
+F (.\Libraries\pwm\app_pwm.c)(0x56E1A84E)()
+F (.\Libraries\timer\app_timer.c)(0x56E1A84E)()
+F (.\Doc\readme.txt)(0x59AE8776)()
+F (.\softdevice\common\softdevice_handler\softdevice_handler.c)(0x56E1A84F)()
+F (.\BLE\ble_advertising\ble_advertising.c)(0x56E1A84E)()
+F (.\BLE\ble_services\ble_dis\ble_dis.c)(0x56E1A84E)()
+F (.\BLE\ble_services\ble_nus\ble_nus.c)(0x56E1A84E)()
+F (.\BLE\common\ble_advdata.c)(0x56E1A84E)()
+F (.\BLE\common\ble_conn_params.c)(0x583E73BA)()
+F (.\BLE\common\ble_srv_common.c)(0x56E1A84E)()
+F (.\Drivers\segger_rtt\SEGGER_RTT.c)(0x56E1A850)()
+F (.\Drivers\segger_rtt\SEGGER_RTT_printf.c)(0x56E1A850)()
+F (.\Drivers\segger_rtt\RTT_Syscalls_KEIL.c)(0x56E1A850)()
+F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x57EE11CE)()
+F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x57EE11CE)()

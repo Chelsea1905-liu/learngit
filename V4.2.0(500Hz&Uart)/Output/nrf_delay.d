@@ -1,0 +1,16 @@
+.\output\nrf_delay.s: Drivers\delay\nrf_delay.c
+.\output\nrf_delay.s: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\compiler_abstraction.h
+.\output\nrf_delay.s: Drivers\delay\nrf_delay.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h
+.\output\nrf_delay.s: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf52.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_bitfields.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf51_to_nrf52.h
+.\output\nrf_delay.s: C:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\nrf52_name_change.h

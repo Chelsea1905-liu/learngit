@@ -1,0 +1,36 @@
+
+T1520 000:455 SEGGER J-Link V5.12e Log File (0001ms, 0275ms total)
+T1520 000:455 DLL Compiled: Apr 29 2016 15:03:58 (0001ms, 0275ms total)
+T1520 000:455 Logging started @ 2020-06-12 10:58 (0001ms, 0275ms total)
+T1520 000:456 JLINK_SetWarnOutHandler(...) (0000ms, 0275ms total)
+T1520 000:456 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0271ms, 0546ms total)
+T1520 000:727 JLINK_SetErrorOutHandler(...) (0000ms, 0546ms total)
+T1520 000:727 JLINK_ExecCommand("ProjectFile = "H:\原桌面文件夹\刘青松调试版本\V4.2.0(500Hz&Uart)\JLinkSettings.ini"", ...)Device "NRF51822_XXAA" selected.  returns 0x00 (0001ms, 0547ms total)
+T1520 000:728 JLINK_ExecCommand("Device = nRF52832_xxAA", ...)Device "NRF51822_XXAA" selected.  returns 0x00 (0001ms, 0548ms total)
+T1520 000:729 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetFirmwareString(...) (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetCompileDateTime() (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetFirmwareString(...) (0000ms, 0548ms total)
+T1520 000:729 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0548ms total)
+T1520 000:729 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0003ms, 0551ms total)
+T1520 000:732 JLINK_SetSpeed(5000) (0002ms, 0553ms total)
+T1520 000:734 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0553ms total)
+T1520 000:734 JLINK_Reset() >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+               >0x35 TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x35 TIF> >0x0D TIF> >0x0D TIF> >0x35 TIF> >0x35 TIF> >0x108 TIF> >0x108 TIF>JLINK_GetId() >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+               >0x35 TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x35 TIF> >0x0D TIF> >0x0D TIF> >0x35 TIF> >0x35 TIF> >0x108 TIF> >0x108 TIF>  returns 0x00000000 (0288ms, 1675ms total)
+T1520 001:856 JLINK_GetId() >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+               >0x35 TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x35 TIF> >0x0D TIF> >0x0D TIF> >0x35 TIF> >0x35 TIF> >0x108 TIF> >0x108 TIF>  returns 0x00000000 (0290ms, 1965ms total)
+T1520 002:152 JLINK_GetFirmwareString(...) (0000ms, 1965ms total)
+T1520 003:412 JLINK_Close() (0001ms, 1966ms total)
+T1520 003:412  (0001ms, 1966ms total)
+T1520 003:412 Closed (0001ms, 1966ms total)
